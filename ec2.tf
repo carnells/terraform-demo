@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 
-resouce "aws_instance" "demo_dev_server" {
+resource "aws_instance" "demo_dev_server" {
   ami = "ami-02354e95b39ca8dec"
   instance_type = "t2.mirco"
   
