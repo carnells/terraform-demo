@@ -4,7 +4,7 @@ provider "aws" {
 
 
 resource "aws_instance" "demo_dev_server" {
-  ami = "ami-02354e95b39ca8dec"
+  ami = "ami-033b95fb8079dc481"
   instance_type = "t2.mirco"
   
   tags = {
